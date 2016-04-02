@@ -1,0 +1,32 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Digital Capital
+tagline:             Web Property Investing Research
+url:                 http://digitalcapital.io
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Derek Conjar
+  url:               http://derekconjar.com
+  email:             derek@newadventuremedia.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/derekconjar/digitalcapital.io
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
